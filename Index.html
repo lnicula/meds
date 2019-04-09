@@ -1,1 +1,40 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cube Timer | Jacob Fenn</title>
+    <link rel = "stylesheet" href = "style.css" type = "text/css">
+    <link href = "https://fonts.googleapis.com/css?family=Impact" rel = "stylesheet">
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.5.1/hint.min.css"></script>
+    <script src = 'script.js' defer></script>
+		
+			<h2>Cube Timer | Jacob Fenn</h2>
+      <br>
+			
+			<!-- The Pop Up Settings Box -->
+			<button id = 'openSettings'>
+				<img src = './settingicon.png' alt = 'settings icon' class = 'icon'>
+			</button>
+		
+			<div id="settings" class="settings">
+
+  			<!-- Modal content -->
+  			<div class="settings-tab">
+    			<span class="close">&times;</span>
+    			<p class = 'settings-content'>Create A Name To Save Your Solve Times</p>
+      		<form action = "timer.html" method = "GET">
+        		
+						<label class = 'settings-content' for = 'SaveName'>Save Name:  </label>
+        		
+			
+						<input class = 'settings-content' id = "SaveName" placeholder = 'Username' name = "SaveName" type = "text" required minlength = "3" maxlength = "15">
+        		<br>
+      		</form>
+  			</div>
+			</div>
+			<!-- End Of Pop Up Settings Box -->
+    
+  </body>
+</html>
